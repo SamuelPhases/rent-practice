@@ -1,0 +1,93 @@
+.search {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.togglers {
+  display: flex;
+  margin: 2em 0em;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  width: 100%;
+  margin-bottom: 1em;
+  /* text-align: center; */
+}
+
+.togglers > h2 {
+  /* text-align: center; */
+  font-weight: 300;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  /* padding-right: 2em; */
+}
+
+.toggler__open > form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 999px;
+  width: 110%;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.toggler__open > form > div > label {
+  font-size: 0.8rem;
+  color: #222;
+  font-weight: 500;
+  padding-left: 0.3em;
+}
+.toggler__open > form > div > input {
+  margin-top: 0.5em;
+  padding: 0.5em;
+  width: 150px;
+  font-size: 0.8rem;
+  border: none;
+  background-color: transparent;
+  color: #717171;
+}
+
+.split {
+  position: relative;
+}
+
+.split::before {
+  content: "";
+  position: absolute;
+  width: 1%;
+  height: 50%;
+  left: -5%;
+  top: 30%;
+  background-color: #ebebeb;
+}
+.toggler__open > form > div {
+  padding: 0.5em 1.5em;
+  display: flex;
+  flex-direction: column;
+}
+.toggler__open > form > div:hover {
+  background-color: #ebebeb;
+  border-radius: 999px;
+}
+.toggler__open > form > button {
+  width: fit-content;
+  height: fit-content;
+  background-color: #ff385c;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  border: none;
+  padding: 0.5em;
+  margin-right: 0.5em;
+}
+
+.toggler__open > form > button > .MuiSvgIcon-root {
+  color: #fff;
+  /* font-size: 1rem; */
+}

@@ -1,0 +1,89 @@
+.footer {
+  background-color: #f7f7f7;
+  border-top: 1px solid #ddd;
+  width: 100%;
+  padding: 3em 0em;
+  padding-bottom: 0em;
+  /* position: relative;
+  bottom: 0; */
+}
+
+.footer__container {
+  /* background-color: #819086; */
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4em;
+}
+
+.footer__container > div > h3 {
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #222;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.footer__container > div > ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.footer__container > div > ul > li {
+  margin-bottom: 1em;
+  text-transform: capitalize;
+  font-size: 0.9rem;
+  color: #222;
+}
+
+.footer__container2 {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  border-top: 1px solid #ddd;
+  margin: auto;
+  justify-content: space-between;
+  padding: 1em 0em;
+}
+
+.footer__containerleft {
+  display: flex;
+  align-items: center;
+}
+
+.footer__containerleft > p {
+  font-size: 0.9rem;
+  margin-right: 1em;
+  text-transform: capitalize;
+}
+
+.footer__containerright {
+  display: flex;
+  align-items: center;
+  /* background-color: #289; */
+}
+
+.footer__containerright > div > h2 {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222;
+  margin-top: 0.8em;
+}
+.footer__containerright > div {
+  display: flex;
+  align-items: center;
+
+  margin-left: 1em;
+  /* background-color: #100; */
+}
+
+.footer__containerright > div > .MuiSvgIcon-root {
+  font-size: 1.2rem;
+  /* margin-top: 0.2em; */
+  color: #222;
+  margin-right: 0.5em;
+  font-weight: 300;
+}

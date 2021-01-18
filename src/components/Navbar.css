@@ -1,0 +1,67 @@
+.navbar {
+  /* padding: 0em; */
+  /* background-color: #849; */
+}
+
+.navbar__row {
+  display: flex;
+  width: 90%;
+  /* background-color: #829837; */
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 10%;
+  object-fit: contain;
+  /* flex: 0.1; */
+  margin-top: -1em;
+}
+
+.navbar__middle {
+  /* flex: 0.8; */
+  padding-top: 2em;
+  /* background-color: #792861; */
+}
+
+.navbar__right {
+  margin-top: -1.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar__right > p {
+  margin-right: 1.5em;
+  color: #222;
+  font-weight: 500;
+}
+
+.navbar__right > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1em;
+}
+
+.navbar__lang > .MuiSvgIcon-root {
+  font-size: 1rem;
+  margin-right: 0.4 em;
+}
+
+.navbar__login:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5),
+    -2px -2px 3px rgba(255, 255, 255, 0.4);
+}
+.navbar__login {
+  cursor: pointer;
+  background-color: #fff;
+  padding: 0.3em;
+  border-radius: 50px;
+  border: 1px solid #ddd;
+}
+
+.navbar__login > .MuiSvgIcon-root {
+  color: #717171;
+}

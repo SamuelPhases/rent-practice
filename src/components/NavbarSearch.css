@@ -1,0 +1,47 @@
+.navbar__white {
+  background-color: #fff;
+  padding: 1em 0em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.navbar__middlewhite:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1), -2px -2px 5px rgba(0, 0, 0, 0.1);
+}
+.navbar__middlewhite {
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  padding: 0em;
+  /* background-color: #729090; */
+  display: flex;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.03), -2px -2px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 999px;
+  overflow: hidden;
+  width: 300px;
+  margin-top: -2em;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navbar__rightscroll {
+  margin-top: 0em;
+}
+.navbar__middlewhite > input {
+  padding: 1em;
+  border: none;
+  flex: 1;
+  pointer-events: none;
+}
+
+.navlogo {
+  width: 10%;
+}
+
+.navbar__middlewhite > button {
+  background-color: #ff385c;
+  border: none;
+  padding: 0.6em;
+}
+
+.navbar__middlewhite > button > .MuiSvgIcon-root {
+  color: #fff;
+}

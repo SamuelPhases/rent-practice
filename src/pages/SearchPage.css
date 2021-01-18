@@ -1,0 +1,235 @@
+.search__page {
+  /* display: flex; */
+}
+
+.search__page > nav {
+  background-color: #fff;
+  display: flex;
+  padding: 1em 0em;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  margin-bottom: 3em;
+  position: sticky;
+  top: 0;
+  z-index: 300;
+}
+
+.search__page > nav > .container {
+  display: flex;
+  align-items: center;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.search__pagelogo {
+  width: 10%;
+  object-fit: contain;
+}
+
+.search__pagemiddle:hover {
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.search__pagemiddle {
+  transition: all 0.2s linear;
+  width: 35%;
+  /* background-color: #110; */
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5em;
+  border-radius: 999px;
+  border: 1px solid #ddd;
+  margin-left: 10em;
+}
+
+.search__pagemiddle > input {
+  padding: 0.5em 0.2em;
+  width: 100px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #717171;
+  border: none;
+  outline: none;
+  pointer-events: none;
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.search__pagemiddle > button {
+  background-color: #ff5386;
+  /* padding: 1em; */
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: none;
+  display: grid;
+  place-items: center;
+}
+
+.search__pagemiddle > button > .MuiSvgIcon-root {
+  color: #fff;
+  font-size: 1rem;
+}
+
+.search__pageright {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search__pageright > .host {
+  margin-top: -0.3em;
+}
+
+.search__pageright > div {
+  margin-left: 2em;
+}
+.search__pageright > div > .MuiSvgIcon-root {
+  font-size: 1.8rem;
+}
+.search__pageright > .navbar__lang > .MuiSvgIcon-root {
+  font-size: 1.5rem;
+}
+
+.search__pagecontent {
+  width: 100%;
+  /* background-color: #672; */
+  display: flex;
+  /* height: 120vh; */
+  position: relative;
+}
+.search__pagecontentleft {
+  flex: 0.6;
+  /* height: 300%; */
+  /* background-color: #494; */
+}
+.search__pagecontentright {
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-color: #749183;
+  flex: 0.4;
+}
+
+header {
+  /* background-color: #290; */
+  width: 93%;
+  margin: auto;
+}
+
+header > div {
+  display: flex;
+  padding: 1em 0em;
+}
+
+header > div > p {
+  margin-right: 0.5em;
+  color: #222;
+}
+
+h2 {
+  margin-top: -0.5em;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.tags > p:hover {
+  border: 1px solid #222;
+}
+.tags > p {
+  transition: all 0.2s linear;
+  border: 1px solid #b0b0b0;
+  cursor: pointer;
+  padding: 0.5em 1em;
+  border-radius: 30px;
+  font-size: 0.9rem;
+}
+
+.restrictions {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 2em;
+}
+
+.restrictions > p {
+  font-size: 0.95rem;
+}
+
+.restrictions > .MuiSvgIcon-root {
+  font-size: 1rem;
+  margin-right: 0.5em;
+}
+
+.search__housecard {
+  /* background-color: #111; */
+  width: 90%;
+  margin: 3em auto;
+  /* margin-bottom: 10em; */
+}
+.pagination {
+  width: 60%;
+  margin: auto;
+  /* background-color: #820; */
+  /* margin-bottom: em; */
+  text-align: center;
+}
+.pagination__tab {
+  /* background-color: #217; */
+  margin: auto;
+  margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pagination__tab > div {
+  width: 35px;
+  height: 35px;
+  display: grid;
+  place-items: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.09), -2px -2px 5px rgba(0, 0, 0, 0.09);
+  border-radius: 50%;
+}
+.pagination__tab > p:hover {
+  text-decoration: underline;
+}
+.pagination__tab > p {
+  width: 35px;
+  height: 35px;
+  color: #222;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.pagination__tab > .active {
+  background-color: #222;
+  color: #fff;
+  pointer-events: none;
+}
+
+.pagination__tab > div > .MuiSvgIcon-root {
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.pagination > p {
+  font-size: 0.9rem;
+  color: #222;
+}
+
+.notice {
+  text-align: center;
+}
+
+.notice > p {
+  padding-bottom: 3em;
+  padding-top: 3em;
+  font-size: 0.7rem;
+  color: #717171;
+}
